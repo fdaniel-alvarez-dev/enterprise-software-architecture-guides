@@ -8,25 +8,35 @@ GitHub Repository Structure
 
 Generating the GitHub-Ready Content
 I'll create the full README.md, Java solution, and Mermaid diagram now. 🚀
+
 Java 8 Streams - Filtering & Mapping
+
 Problem Statement
 Your task is to filter a list of products where the price is greater than $100 and return only their names using Java 8 Streams.
+
 Example Input
+```java
 List<Product> products = Arrays.asList(
     new Product("Laptop", 1200),
     new Product("Phone", 800),
     new Product("Mouse", 50),
     new Product("Keyboard", 150)
 );
+
 Expected Output
+Code
+
 [Laptop, Phone, Keyboard]
 
-Solution Explanation
-We use Streams API to:
-    1. Filter products with price > 100.
-    2. Map each product to its name.
-    3. Collect results into a List<String>.
+Solution Explanation We use Streams API to:
+
+    Filter products with price > 100.
+    Map each product to its name.
+    Collect results into a List<String>.
+
 Java 8 Solution
+Java
+
 import java.util.*;
 import java.util.stream.Collectors;
 
